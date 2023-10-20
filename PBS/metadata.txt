@@ -1,16 +1,16 @@
 ﻿[000]
 PlayerA=POKEMONTRAINER_Red,trchar000,boy_bike,boy_surf_offset,boy_run,boy_dive_offset,boy_fish_offset,boy_fishsurf_offset
 PlayerB=POKEMONTRAINER_Leaf,trchar001,girl_bike,girl_surf_offset,girl_run,girl_dive_offset,girl_fish_offset,girl_fishsurf_offset
-TrainerBattleBGM=005-Boss01.mid
+TrainerBattleBGM=Entrenador.mp3
 SurfBGM=Ship.mid
 BicycleBGM=Airship.mid
 Home=3,7,5,8
 WildBattleBGM=Pokemon Salvaje.mp3
-TrainerBattleBGM=Entrenador.mp3
 [001]
 # Intro
 [002]
-# Gimnasio Mercurio
+# Segundo Desafio - GYM Envidia
+SnapEdges=true
 MapPosition=0,13,12
 ShowArea=true
 [003]
@@ -19,27 +19,30 @@ BattleBack=IndoorB
 MapPosition=0,13,12
 HealingSpot=2,8,8
 [004]
-# Ruta 2
-MapPosition=0,13,12
-ShowArea=false
+# Ruta 3
 SnapEdges=true
+MapPosition=0,13,12
+ShowArea=true
 [005]
-# Ciudad Minerva
+# Isla Mariconeo
+SnapEdges=true
 MapPosition=0,13,11
 ShowArea=true
-SnapEdges=true
 [006]
 # Centro Pokemon
-MapPosition=0,13,11
 SnapEdges=true
+MapPosition=0,13,11
 [007]
 # MClub
 MapSize=2,11
+SnapEdges=true
 MapPosition=0,13,10
 ShowArea=true
 [008]
-# Casino Minerva
+# Cuarto Desafío - GYM Soberbia
+SnapEdges=true
 MapPosition=0,13,12
+ShowArea=true
 [009]
 # Hotel Minerva - Recepción
 MapPosition=0,14,10
@@ -49,33 +52,45 @@ HealingSpot=8,17,11
 BattleBack=IndoorB
 MapPosition=0,13,10
 [011]
-# MClub - Sala Oculta
+# Tercer Desafío - GYM Lujuria
+SnapEdges=true
 MapPosition=0,14,10
+ShowArea=true
 [012]
-# Ruta 3
-MapPosition=0,14,10
+# Ruta 4
 SnapEdges=true
+MapPosition=0,14,10
+ShowArea=true
 [013]
-# Pueblo Venus
-MapPosition=0,14,10
+# Isla Triste
 SnapEdges=true
+MapPosition=0,14,10
+ShowArea=true
 [014]
 # Torre Vida
+SnapEdges=true
 MapPosition=0,13,10
+ShowArea=true
 [015]
 # Torre Vida - Piso 2
+SnapEdges=true
 MapPosition=0,13,10
+ShowArea=true
 [016]
-# Gimnasio Venus
+# Último Desafío - GYM Pereza
+SnapEdges=true
 MapPosition=0,13,10
+ShowArea=true
 [017]
 # Casa Movimientos
 MapPosition=0,13,10
 [018]
 # Centro Pokemon
 MapPosition=0,13,10
+[019]
+# Tienda
 [022]
-# Pueblo Ares
+# Isla Boosteo
 SnapEdges=true
 BattleBack=Water
 TrainerVictoryME=001-Victory01.mid
@@ -84,6 +99,35 @@ TrainerBattleBGM=GSC Battle.mid
 MapPosition=0,1,17
 WildBattleBGM=GSC Battle.mid
 ShowArea=true
+[023]
+# Ruta 5
+SnapEdges=true
+ShowArea=true
+[024]
+# Cueva Virgen
+SnapEdges=true
+ShowArea=true
+[025]
+# Cueva Virgen
+SnapEdges=true
+ShowArea=true
+[026]
+# Cueva Virgen - P-1
+SnapEdges=true
+[027]
+# Isla Potota
+SnapEdges=true
+ShowArea=true
+[028]
+# Coliseo Pototo
+SnapEdges=true
+ShowArea=true
+[029]
+# Coliseo Pototo
+SnapEdges=true
+[030]
+# Cueva Virgen
+SnapEdges=true
 [032]
 # Ruta 1
 SnapEdges=true
@@ -95,13 +139,36 @@ TrainerBattleBGM=GSC Battle.mid
 MapPosition=0,1,15
 WildBattleBGM=GSC Battle.mid
 [033]
-# Pueblo Hera
+# Isla Valorant
 SnapEdges=true
 Bicycle=true
 MapPosition=0,1,13
 ShowArea=true
+[035]
+# Pueblo Fracaso
+SnapEdges=true
+ShowArea=true
+[036]
+# Isla Canal
+SnapEdges=true
+Bicycle=true
+ShowArea=true
+[038]
+# Primer Desafío - GYM Ira
+SnapEdges=true
+[039]
+# Escuela Valorant
+SnapEdges=true
+[040]
+# Cueva Boosteo
+SnapEdges=true
+ShowArea=true
+[041]
+# Ruta 2
+SnapEdges=true
+ShowArea=true
 [042]
-# Laboratorio Donovan
+# Oficina Javi School
 SnapEdges=true
 Bicycle=false
 MapPosition=0,1,17
@@ -109,17 +176,103 @@ Outdoor=false
 ShowArea=false
 [043]
 # Casa de \PN
-SnapEdges=true
 BattleBack=
 Bicycle=false
 MapPosition=0,1,17
 Outdoor=false
 ShowArea=true
+[044]
+# Cueva Virgen - Camara
+SnapEdges=true
+[046]
+# Quinto Desafío - GYM Gula
+SnapEdges=true
+ShowArea=true
+[047]
+# Isla Aguita
+SnapEdges=true
+ShowArea=true
 [048]
 # Casa Vieja
+[049]
+# Bosque Ensordecimiento
 SnapEdges=true
+ShowArea=true
+[050]
+# Isla Merienda
+SnapEdges=true
+ShowArea=true
+[051]
+# Ruta 6
+SnapEdges=true
+ShowArea=true
+[052]
+# Cueva Manta
+SnapEdges=true
+ShowArea=true
+[053]
+# Cueva Manta - Camara
+SnapEdges=true
+ShowArea=true
+[054]
+# Cueva Manta - P-1
+SnapEdges=true
+[055]
+# Isla Directo
+SnapEdges=true
+ShowArea=true
+[056]
+# Templo Directo - Entrada
+SnapEdges=true
+ShowArea=false
+[057]
+# Faro
+SnapEdges=true
+ShowArea=true
+[058]
+# Faro - P1
+SnapEdges=true
+[062]
+# Mansión Encantada
+SnapEdges=true
+ShowArea=true
+[063]
+# Mansión Encantada - Cementerio
+SnapEdges=true
+ShowArea=true
+[064]
+# Mansión Encantada - Habitación
+SnapEdges=true
+[067]
+# Ayuntamiento de Discordia
+SnapEdges=true
+ShowArea=true
+[068]
+# Ayuntamiento de Discordia
+SnapEdges=true
+ShowArea=true
+[069]
+# Ayuntamiento de Discordia - Parlamento
+SnapEdges=true
+ShowArea=true
+[070]
+# Ayuntamiento de Discordia
+SnapEdges=true
+ShowArea=true
+[071]
+# Ayuntamiento de Discordia - Cámara Real
+SnapEdges=true
+ShowArea=true
+[072]
+# Fábrica Llama
+SnapEdges=true
+ShowArea=true
+[075]
+# Templo Directo
+SnapEdges=true
+ShowArea=true
 [076]
-# Casa de Steinberg
+# Casa de Rafa
 SnapEdges=true
 [077]
 # Casa Kevin
@@ -128,12 +281,88 @@ SnapEdges=true
 # Centro Pokemon
 SnapEdges=true
 [079]
-# Bosque Diana
+# Templo Directo - P-1
 SnapEdges=true
 Bicycle=false
 MapPosition=0,3,12
 ShowArea=true
 [080]
-# Ciudad Mercurio
+# Isla Muteo
 SnapEdges=true
+ShowArea=true
+[081]
+# Centro Pokemon
+SnapEdges=true
+[082]
+# Museo Mariconeo
+SnapEdges=true
+ShowArea=true
+[083]
+# Museo - Sala Ciencias
+SnapEdges=true
+ShowArea=true
+[084]
+# Museo - Desván
+SnapEdges=true
+ShowArea=true
+[085]
+# Museo - Sala Expo.
+SnapEdges=true
+ShowArea=true
+[091]
+# Templo Directo - P-2
+SnapEdges=true
+ShowArea=true
+[092]
+# Templo Directo - P-3
+SnapEdges=true
+ShowArea=true
+[093]
+# Templo Directo - Cámara Regi
+SnapEdges=true
+ShowArea=true
+[094]
+# Catedral Javi School
+SnapEdges=true
+ShowArea=true
+[095]
+# Catedral Javi School - Capilla
+SnapEdges=true
+ShowArea=true
+[096]
+# Catedral Javi School - Pasillo
+SnapEdges=true
+ShowArea=true
+[097]
+# Catedral Javi School - Clases
+SnapEdges=true
+ShowArea=true
+[098]
+# Catedral Javi School - Clase 1
+SnapEdges=true
+ShowArea=true
+[099]
+# Catedral Javi School - Jardín
+SnapEdges=true
+ShowArea=true
+[100]
+# Catedral Javi School - Dirección
+SnapEdges=true
+ShowArea=true
+[101]
+# Catedral Javi School - Clase 2
+SnapEdges=true
+ShowArea=true
+[102]
+# Catedral Javi School - Bind
+SnapEdges=true
+ShowArea=true
+[103]
+# Isla Farmeo
+SnapEdges=true
+ShowArea=true
+[104]
+# Cueva Farmeo
+SnapEdges=true
+Outdoor=false
 ShowArea=true
